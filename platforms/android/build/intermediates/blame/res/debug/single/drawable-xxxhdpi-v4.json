@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\test\\github\\APP-PKNS-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon.png",
+        "source": "C:\\Users\\test\\github\\APP-PKNS-Material\\platforms\\android\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\github\\APP-PKNS-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon.png",
+        "source": "C:\\Users\\user\\github\\APP-PKNS-Material\\platforms\\android\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\test\\Desktop\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\icon.png",
+        "source": "C:\\Users\\test\\Desktop\\APP-SPRM-Material\\platforms\\android\\res\\drawable-xxxhdpi\\icon.png"
+    }
+]

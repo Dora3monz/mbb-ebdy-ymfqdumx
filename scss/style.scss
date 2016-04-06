@@ -355,7 +355,7 @@ md-sidenav {
         height: 100%; }
 
 .material-background-bar{
- background-image: url('../img/pknsBG2.png') !important;
+ background-image: url('../img/main_bg.png') !important;
  background-position: center !important;
 }
 
@@ -2168,13 +2168,13 @@ md-sidenav {
     }
 
     h1 {
-      color: $color_white;
+      color: $color_black;
       font-size: 30px;
       font-weight: 400;
     }
 
     h2 {
-      color: $color_white;
+      color: $color_black;
       font-size: 16px;
     }
 
@@ -2183,10 +2183,10 @@ md-sidenav {
       font-size: 28px !important;
     }
     img.user-img {
-      border-radius: 50%;
+      border-radius: 70%;
       width: 100px;
       height: 100px;
-      margin-top: 0;
+      margin-top: 25px;
 
     }
   }//end toolbar section

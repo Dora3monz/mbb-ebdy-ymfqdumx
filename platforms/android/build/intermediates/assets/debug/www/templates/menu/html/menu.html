@@ -1,0 +1,147 @@
+<!--View Information-->
+<!--View name : Menu-->
+<!--Controller name : menuCtrl-->
+<!--Controller path : www/templates/menu/js/controllers.js-->
+<!--State name : app-->
+<!--URL : #app-->
+
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-balanced  material-background-nav-bar">
+            <ion-nav-buttons side="left">
+                <a class="button button-icon button-clear ion-navicon" menu-toggle="left" ng-click="toggleLeft()"></a>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    <md-sidenav md-component-id="left" on-swipe-left="closeSideNav()" on-drag-left="closeSideNav()">
+        <!--menu section-->
+        <div class="material-background" id="toggle-menu-left-header">
+            <!--menu header section-->
+            <div class="menu-left-header">
+                <img class="user-img" src="img/pkns.png">
+                  <p>
+                      <span class="title">PKNS</span>
+                      <br/>
+                      <span class="sub-title">Perbadanan Kemajuan Negeri Selangor</span>
+                  </p>
+            </div><!--end menu header section-->
+        </div> <!--menu content section-->
+        <ion-content id="toggle-menu-left-content">
+
+            <!--If device is android application will present below code.-->
+            <!--It will disable animation to better performance on android.-->
+            <!--list section-->
+            <div ng-if="isAndroid" class="menu-list">
+              <md-subheader class="md-warn">Menu Utama</md-subheader>
+                <div class="row menu-item"  ng-click="navigateTo('app.expense')">
+                    <div class="col-33">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Utama</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.newsFeed')">
+                    <div class="col-33">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Laman Web</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.productList')">
+                    <div class="col-33">
+                        <i class="fa fa-newspaper-o"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Berita/Pengumuman</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.menuDashboard2')">
+                    <div class="col-33">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Syarikat Anak PKNS</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.menuDashboard')">
+                    <div class="col-33">
+                        <i class="fa fa-institution"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Agensi Berkaitan</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.menuDashboard1')">
+                    <div class="col-33">
+                        <i class="fa fa-link"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Pautan Pantas</span>
+                    </div>
+                </div>
+                <br>
+                <hr/>
+                <div class="row menu-item"  ng-click="openMap(destinationLocation)">
+                    <div class="col-33">
+                        <i class="fa fa-map"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Peta Lokasi</span>
+                    </div>
+                </div>
+                <div class="row menu-item"  ng-click="navigateTo('app.contractUs')">
+                    <div class="col-33">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="col-66">
+                        <span>Hubungi Kami</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--If device is not Android application will present below code.-->
+            <!--It will show animation when selecting row.-->
+            <md-list ng-if="!isAndroid">
+              <md-subheader class="md-warn">Menu Utama</md-subheader>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.expense')">
+                      <i class="fa fa-home"></i>
+                      <span>Utama</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.newsFeed')">
+                      <i class="fa fa-globe"></i>
+                      <span>Laman Web</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.productList')">
+                      <i class="fa fa-newspaper-o"></i>
+                      <span>Berita/Pengumuman</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.menuDashboard2')">
+                      <i class="fa fa-shield"></i>
+                      <span>Syarikat Anak PKNS</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.menuDashboard')">
+                      <i class="fa fa-institution"></i>
+                      <span>Agensi Berkaitan</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.menuDashboard1')">
+                      <i class="fa fa-link"></i>
+                      <span>Pautan Pantas</span>
+                  </md-list-item>
+                  <hr/>
+                  <md-list-item class="menu-list-item" ng-click="openMap(destinationLocation)">
+                      <i class="fa fa-map-o"></i>
+                      <span>Peta Lokasi</span>
+                  </md-list-item>
+                  <md-list-item class="menu-list-item" ng-click="navigateTo('app.contractUs')">
+                    <i class="fa fa-phone"></i>
+                    <span>Hubungi Kami</span>
+                  </md-list-item>
+          </md-list>
+                <!--end list section-->
+        </ion-content><!--end menu content section-->
+            <!--end menu section-->
+    </md-sidenav>
+</ion-side-menus>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\libs"><file name="google-play-services.jar" path="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\libs\google-play-services.jar"/></source></dataSet><dataSet config="debug"><source path="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\src\debug\jniLibs"/></dataSet></merger>
