@@ -207,7 +207,7 @@ md-sidenav {
   height: 100%; }
 
 .material-background-bar {
-  background-image: url("../img/main_bg.png") !important;
+  background-image: url("../img/sprm/sprm-main-banner.jpg") !important;
   background-position: center !important; }
 
 .material-background-nav-bar {
@@ -1364,11 +1364,11 @@ md-sidenav {
     text-align: center;
     height: inherit !important; }
   #expense-dashboard .toolbar-expense h1 {
-    color: black;
+    color: #F44336;
     font-size: 30px;
     font-weight: 400; }
   #expense-dashboard .toolbar-expense h2 {
-    color: black;
+    color: #F44336;
     font-size: 16px; }
   #expense-dashboard .toolbar-expense h3 {
     color: white;
