@@ -198,7 +198,6 @@ md-sidenav {
 
 .iframe-wrapper {
   position: absolute;
-  -webkit-overflow-scrolling: touch;
   overflow: scroll;
   width: 100%;
   height: 100%; }

@@ -55,29 +55,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
         });
     };// End of showListBottomSheet (terkini/pengumuman).
 
-    $scope.showListBottomSheet5 = function ($event5) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template5',
-            targetEvent: $event5,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (kenyataan media).
-
-    $scope.showListBottomSheet6 = function ($event6) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template6',
-            targetEvent: $event6,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (jadual bicara).
-
-    $scope.showListBottomSheet7 = function ($event7) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template7',
-            targetEvent: $event7,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (data pesalah).
+    
 
     //ShowToast for show toast when user press button.
     // $scope.showToast = function (menuName) {

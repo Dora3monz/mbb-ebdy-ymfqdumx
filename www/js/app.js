@@ -310,7 +310,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
         $mdThemingProvider
             .theme('default')
             .primaryPalette('amber')
-            .accentPalette('orange');
+            .accentPalette('amber');
 
         appPrimaryColor = $mdColorPalette[$mdThemingProvider._THEMES.default.colors.primary.name]["500"]; //Use for get base color of theme.
 
@@ -468,113 +468,76 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-            .state('app.twitter', {
-                url: "test",
+            // start open next page Mainmenu
+            .state('app.menuDashboardOrangAwam', {
+                url: "/OrangAwam",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/twitter.html",
+                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/menu-dashboardOrangAwam.html"
                     }
                 }
             })
-              // start showListBottomSheet link page
-            .state('app.pknsProperty', {
-                url: "property",
+            .state('app.menuDashboardWargaSPRM', {
+                url: "/WargaSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PKNSProperty.html",
+                        templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/menu-dashboardWargaSPRM.html"
                     }
                 }
             })
-
-            .state('app.pknsCareline', {
-                url: "careline",
+            .state('app.menuDashboardAgensiKerajaan', {
+                url: "/AgensiKerajaan",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PKNScareline.html",
+                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/menu-DashboardAgensiKerajaan.html"
                     }
                 }
             })
-
-            .state('app.direktori', {
-                url: "direktori",
+            .state('app.menuDashboardInfoSPRM', {
+                url: "/InfoSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Direktori.html",
+                        templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/menu-DashboardInfoSPRM.html"
                     }
                 }
             })
-
-            .state('app.sistemDalamanPKNS', {
-                url: "sistemdalamanPKNS",
+           .state('app.jadualBicara', {
+                url: "/jadualBicara",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/SistemDalaman.html",
+                        templateUrl: "templates/themes/expense-dashboard/html/jadualbicara.html",
                     }
                 }
             })
 
-            .state('app.programKeusahawanan', {
-                url: "programKeusahawanan",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/ProgramKeusahawanan.html",
-                    }
-                }
-            })
+            .state('app.dataPesalah', {
+                 url: "/dataPesalah",
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/datapesalah.html",
+                     }
+                 }
+             })
 
-            .state('app.akademiPKNS', {
-                url: "akademi",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/AkademiPKNS.html",
-                    }
-                }
-            })
+             .state('app.terkini', {
+                  url: "/terkini",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/themes/expense-dashboard/html/terkini.html",
+                      }
+                  }
+              })
 
-            .state('app.pejabatMaya', {
-                url: "pejabatMaya",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PejabatMaya.html",
-                    }
-                }
-            })
+              .state('app.kenyataanMedia', {
+                   url: "/kenyataanMedia",
+                   views: {
+                       'menuContent': {
+                           templateUrl: "templates/themes/expense-dashboard/html/kenyataanmedia.html",
+                       }
+                   }
+               })
 
-            .state('app.peluangPerniagaan', {
-                url: "peluangPekerjaan",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PeluangPerniagaan.html",
-                    }
-                }
-            })
-
-            .state('app.sebutHarga', {
-                url: "sebutHarga",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/NotisSebutHarga.html",
-                    }
-                }
-            })
-
-            .state('app.pembayaranOnline', {
-                url: "sebutHarga",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PembayaranOnline.html",
-                    }
-                }
-            })
-
-            .state('app.pembayaranOnlinePOS', {
-                url: "sebutHarga",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/PembayaranOnlinePOS.html",
-                    }
-                }
-            })//end of page link for showListBottomSheet
+            //end of open next page Mainmenu
 
 
             .state('app.googlePlusLogin', {
@@ -920,14 +883,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
-            .state('app.menuDashboard1', {
-                url: "/menuDashboard1",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/themes/menu-dashboard/html/menu-dashboard1.html"
-                    }
-                }
-            })
+
             .state('app.menuDashboard2', {
                 url: "/menuDashboard1",
                 views: {
@@ -936,6 +892,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
+
             //pautan agensi page link
             .state('app.KerajaanMalaysia', {
                 url: "/kerajaanmalaysia",
