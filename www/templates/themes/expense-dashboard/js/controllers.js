@@ -37,7 +37,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             targetEvent: $event2,
             scope: $scope.$new(false),
         });
-    };// End of showListBottomSheet (Warga PKNS).
+    };// End of showListBottomSheet (Warga sprm).
 
     $scope.showListBottomSheet3 = function ($event3) {
         $mdBottomSheet.show({
@@ -45,7 +45,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             targetEvent: $event3,
             scope: $scope.$new(false),
         });
-    };// End of showListBottomSheet (Usahawan).
+    };// End of showListBottomSheet (agensi kerajaan).
 
     $scope.showListBottomSheet4 = function ($event4) {
         $mdBottomSheet.show({
@@ -53,7 +53,31 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             targetEvent: $event4,
             scope: $scope.$new(false),
         });
-    };// End of showListBottomSheet (Perkhidmatan).
+    };// End of showListBottomSheet (terkini/pengumuman).
+
+    $scope.showListBottomSheet5 = function ($event5) {
+        $mdBottomSheet.show({
+            templateUrl: 'ui-list-bottom-sheet-template5',
+            targetEvent: $event5,
+            scope: $scope.$new(false),
+        });
+    };// End of showListBottomSheet (kenyataan media).
+
+    $scope.showListBottomSheet6 = function ($event6) {
+        $mdBottomSheet.show({
+            templateUrl: 'ui-list-bottom-sheet-template6',
+            targetEvent: $event6,
+            scope: $scope.$new(false),
+        });
+    };// End of showListBottomSheet (jadual bicara).
+
+    $scope.showListBottomSheet7 = function ($event7) {
+        $mdBottomSheet.show({
+            templateUrl: 'ui-list-bottom-sheet-template7',
+            targetEvent: $event7,
+            scope: $scope.$new(false),
+        });
+    };// End of showListBottomSheet (data pesalah).
 
     //ShowToast for show toast when user press button.
     // $scope.showToast = function (menuName) {
