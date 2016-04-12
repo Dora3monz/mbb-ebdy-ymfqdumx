@@ -1,5 +1,86 @@
 [
     {
+        "outputFile": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\values\\version.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 63,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 63,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 186,
+                    "endColumn": 41,
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endColumn": 58,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 58,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\test\\Desktop\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {

@@ -8,6 +8,10 @@
         "source": "C:\\Users\\test\\Desktop\\APP-SPRM-Material\\platforms\\android\\res\\xml\\config.xml"
     },
     {
+        "merged": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\github\\APP-PKNS-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
         "source": "C:\\Users\\user\\github\\APP-PKNS-Material\\platforms\\android\\res\\xml\\config.xml"
     }

@@ -21,57 +21,16 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             targetEvent: $event,
             scope: $scope.$new(false),
         });
-    };// End of showGridBottomSheet.
-
+    };
     $scope.showListBottomSheet1 = function ($event1) {
         $mdBottomSheet.show({
             templateUrl: 'ui-list-bottom-sheet-template1',
             targetEvent: $event1,
             scope: $scope.$new(false),
         });
-    };// End of showListBottomSheet (Orang Awam).
+    };// End of showListBottomSheet
 
-    $scope.showListBottomSheet2 = function ($event2) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template2',
-            targetEvent: $event2,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (Warga PKNS).
-
-    $scope.showListBottomSheet3 = function ($event3) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template3',
-            targetEvent: $event3,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (Usahawan).
-
-    $scope.showListBottomSheet4 = function ($event4) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template4',
-            targetEvent: $event4,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet (Perkhidmatan).
-
-    //ShowToast for show toast when user press button.
-    // $scope.showToast = function (menuName) {
-    //     //Calling $mdToast.show to show toast.
-    //     $mdToast.show({
-    //         controller: 'toastController',
-    //         templateUrl: 'toast.html',
-    //         hideDelay: 800,
-    //         position: 'top',
-    //         locals: {
-    //             displayOption: {
-    //                 title: 'Going to ' + menuName + " !!"
-    //             }
-    //         }
-    //     });
-    // }// End showToast.
-
-});// End of controller expense dashboard.
+  });// End of controller expense dashboard.
 
 
 // Controller of expense dashboard setting.
@@ -98,3 +57,55 @@ appControllers.controller('expenseDashboardSettingCtrl', function ($scope, $stat
         }
     }; // End of navigateTo.
 }); // End of controller expense dashboard setting.
+
+appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialSharing, $cordovaSms) {
+
+    // This function is the first activity in the controller.
+    // It will initial all variable data and let the function works when page load.
+    $scope.initialForm = function () {
+        // $scope.contractInfo is store contract us data
+        $scope.contractInfo = {
+            telephone: "1-800-88-6000",
+            sms:"+6019-6000 696",
+            fax:"+603-8889 4329",
+            email: "info@sprm.gov.my"
+        };
+        $scope.destinationLocation = " 3.070378,101.517234";
+    };// End initialForm.
+
+    // sentSms is for send message by calling $cordovaSms
+    // Parameter :
+    // phoneNumber = number of sending message
+    $scope.sentSms = function (phoneNumber) {
+        //config options to sent message
+        var options = {
+            replaceLineBreaks: false, // true to replace \n by a new line, false by default.
+            android: {
+                intent: 'INTENT' // send SMS with the native android SMS messaging.
+                //intent: '' // send SMS without open any other app.
+            }
+        };
+        // calling $cordovaSms to sent message
+        $cordovaSms.send(phoneNumber, " ", options);
+    } // End sentSms.
+
+    // sentEmail is for send email by calling $cordovaSocialSharing.
+    // Parameter :
+    // email = email of receiver
+    $scope.sentEmail = function (email) {
+        $cordovaSocialSharing.shareViaEmail("", "", email, "", "", "");
+        // format of sent email by using $cordovaSocialSharing is :
+        //$cordovaSocialSharing.shareViaEmail(message, subject, toArr, ccArr, bccArr,file)
+        // toArr, ccArr and bccArr must be an array, file can be either null, string or array.
+    } // End sentEmail.
+
+    // callTo is for using mobile calling.
+    // Parameter :
+    // number = number that going to call.
+    $scope.callTo = function (number) {
+        window.open("tel:" + number);
+    }// End callTo.
+
+    $scope.initialForm();
+
+});// End of contract us controller.

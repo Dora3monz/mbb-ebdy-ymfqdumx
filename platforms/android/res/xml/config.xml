@@ -46,7 +46,7 @@
     <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
     <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-    <name>PKNS</name>
+    <name>SPRM</name>
     <description>
         Perbadanan Kemajuan Negeri Selangor ( PKNS ) telah ditubuhkan pada 1 Ogos 1964
         di bawah Enakmen Perbadanan Kemajuan Negeri Selangor ( 1964 ) sebagai sebuah

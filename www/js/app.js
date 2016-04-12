@@ -726,6 +726,24 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                                          }
                                      })
 
+                                     .state('app.CMS', {
+                                          url: "/cms",
+                                          views: {
+                                              'menuContent': {
+                                                  templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/CMS.html",
+                                              }
+                                          }
+                                      })
+                                      .state('app.alamatPejabat', {
+                                           url: "/alamatPejabat",
+                                           views: {
+                                               'menuContent': {
+                                                   templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/alamat-pejabat.html",
+                                               }
+                                           }
+                                       })
+
+
 
 
             //end of open next page Mainmenu
