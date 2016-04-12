@@ -1,0 +1,59 @@
+<!--View Information-->
+<!--View name : Menu Dashboard-->
+<!--Controller name : menuDashboardCtrl-->
+<!--Controller path : www/templates/themes/menu-dashboard/js/controllers.js-->
+<!--State name : app.menuDashboard-->
+<!--URL : #app/menuDashboard-->
+
+<ion-view title="Laporkan Rasuah">
+    <!--menu dashboard section-->
+    <ion-content id="menu-dashboard-content">
+        <!--panel section-->
+        <div class="menu-panel">
+            <div class="row">
+                <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="CMS">
+                  <i class="fa fa-laptop"></i>
+                  <p>CMS</p>
+                </div>
+                <div class="col-33" ng-click="callTo(contractInfo.telephone)">
+                  <i class="fa fa-phone"></i>
+                  <p>Talian Bebas Tol </p>
+                </div>
+                <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="Alamat Pejabat">
+                  <i class="fa fa-edit"></i>
+                  <p>Alamat Pejabat</p>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="Email">
+                <i class="fa fa-envelope-o"></i>
+                <p>Email</p>
+              </div>
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="SMS">
+                <i class="fa fa-comments"></i>
+                <p>SMS</p>
+              </div>
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="Faks">
+                <i class="fa fa-print"></i>
+                <p>Faks</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="">
+                <!-- <img src="img/pautan2/jpbd.png" class="user-img"></i>
+                <p>Jabatan Perancangan Bandar dan Desa Negeri Selangor</p> -->
+              </div>
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="Surat Menyurat">
+                <i class="fa fa-envelope"></i>
+                <p>Surat Menyurat</p>
+              </div>
+              <div class="col-33" ng-click="navigateTo('app.')" data-toggle="tooltip" data-placement="bottom" title="">
+                <!-- <img src="img/pautan2/jkm.png" class="user-img"></i>
+                <p>Jabatan Kebajikan Masyarakat Selangor</p> -->
+              </div>
+            </div>
+        </div><!--end panel section-->
+    </ion-content><!--Menu dashboard section-->
+</ion-view>
