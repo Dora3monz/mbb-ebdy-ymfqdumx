@@ -106,7 +106,7 @@ appControllers.controller('productDetailCtrl', function ($scope, $mdToast, $mdBo
         var content = $stateParams.product['introtext'];
         content=content.replace(/height=\"[0-9]*"/i,"");
         content=content.replace(/width=\"[0-9]*\"/i,"");
-        content = content.replace('src="images/','width="100%" src="http://www.pkns.gov.my/images/');
+        content = content.replace('src="images/','width="100%" src="http://www.sprm.gov.my/images/');
 
           //console.log(content);
 

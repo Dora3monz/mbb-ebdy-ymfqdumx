@@ -489,7 +489,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/AgensiKerajaan",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/menu-DashboardAgensiKerajaan.html"
+                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/menu-dashboardAgensiKerajaan.html"
                     }
                 }
             })
@@ -497,11 +497,32 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/InfoSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/menu-DashboardInfoSPRM.html"
-                        // controller: 'facebookFriendListCtrl'
+                        templateUrl: "templates/themes/expense-dashboard/html/menu-dashboardInfoSPRM.html"
                     }
                 }
             })
+            .state('app.kenyataanList', {
+                url: "/kenyataanList",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/kenyataan-media.html",
+                        controller: 'kenyataanCtrl'
+                    }
+                }
+            })
+            .state('app.detailKenyataan', {
+                url: "/detailKenyataan",
+                params: {
+                    product: null,
+                },
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/detailKenyataan-media.html",
+                        controller: 'detailKenyataanCtrl'
+                    }
+                }
+            })
+
            .state('app.jadualBicara', {
                 url: "/jadualBicara",
                 views: {
@@ -511,224 +532,247 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-            .state('app.dataPesalah', {
-                 url: "/dataPesalah",
+            .state('app.maca', {
+                 url: "/maca",
                  views: {
                      'menuContent': {
-                         templateUrl: "templates/themes/expense-dashboard/html/datapesalah.html",
+                         templateUrl: "templates/menu/html/MACA.html",
+                     }
+                 }
+             })
+             .state('app.ace', {
+                  url: "/ace",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/menu/html/ACE.html",
+                      }
+                  }
+              })
+
+
+          .state('app.dataPesalah', {
+               url: "/dataPesalah",
+               views: {
+                   'menuContent': {
+                       templateUrl: "templates/themes/expense-dashboard/html/datapesalah.html",
+                   }
+               }
+           })
+
+           .state('app.statistikTangkapan', {
+                url: "/statistikTangkapan",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/menu/html/statistik-tangkapan.html",
+                    }
+                }
+            })
+
+          .state('app.kenyataanMedia', {
+               url: "/kenyataanMedia",
+               views: {
+                   'menuContent': {
+                       templateUrl: "templates/themes/expense-dashboard/html/kenyataanmedia.html",
+                   }
+               }
+           })
+
+          .state('app.cms', {
+                url: "/cms",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/c-m-s.html",
+                    }
+                }
+            })
+          .state('app.iklan', {
+               url: "/iklan",
+               views: {
+                   'menuContent': {
+                       templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/iklan.html",
+                   }
+               }
+           })
+           .state('app.jabatanPM', {
+                url: "/jabtanpm",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/jabatan-pm.html",
+                    }
+                }
+            })
+            .state('app.kenaliRasuah', {
+                 url: "/kenaliRasuah",
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/kenali-rasuah.html",
+                     }
+                 }
+             })
+           .state('app.laporkanRasuah', {
+                url: "/laporkanRasuah",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/laporkan-rasuah.html",
+                        controller: 'contractUsCtrl'
+                    }
+                }
+            })
+            .state('app.mekanisme', {
+                 url: "/mekanisme",
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/mekanisme.html",
+                     }
+                 }
+             })
+             .state('app.nkra', {
+                  url: "/cms",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/nkra.html",
+                      }
+                  }
+              })
+              .state('app.soalanLazim', {
+                   url: "/cms",
+                   views: {
+                       'menuContent': {
+                           templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/soalan-lazim.html",
+                       }
+                   }
+               })
+               .state('app.tawaranTender', {
+                    url: "/cms",
+                    views: {
+                        'menuContent': {
+                            templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/tawaran-tender.html",
+                        }
+                    }
+                })
+                .state('app.seapac', {
+                     url: "/cms",
+                     views: {
+                         'menuContent': {
+                             templateUrl: "templates/themes/expense-dashboard/html/seapac.html",
+                         }
+                     }
+                 })
+
+                 .state('app.bidangKuasa', {
+                      url: "/bidangKuasa",
+                      views: {
+                          'menuContent': {
+                              templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/bidang-kuasa.html",
+                          }
+                      }
+                  })
+                  .state('app.eSTK', {
+                       url: "/eSTK",
+                       views: {
+                           'menuContent': {
+                               templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/eSTK.html",
+                           }
+                       }
+                   })
+                 .state('app.keterlibatan', {
+                      url: "/keterlibatan",
+                      views: {
+                          'menuContent': {
+                              templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/keterlibatan.html",
+                          }
+                      }
+                  })
+                  .state('app.permohonanProgram', {
+                       url: "/permohonanProgram",
+                       views: {
+                           'menuContent': {
+                               templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/permohonan-program.html",
+                           }
+                       }
+                   })
+                   .state('app.senaraiPegawai', {
+                        url: "/senaraiPegawai",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/senarai-pegawai.html",
+                            }
+                        }
+                    })
+                  .state('app.sistemMaklumat', {
+                       url: "/sistemMaklumat",
+                       views: {
+                           'menuContent': {
+                               templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/sistem-maklumat-kursus-MACA.html",
+                           }
+                       }
+                   })
+
+                 .state('app.aduanPentadbir', {
+                      url: "/aduanPentadbir",
+                      views: {
+                          'menuContent': {
+                              templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/aduan-pentadbir-portal.html",
+                          }
+                      }
+                  })
+                .state('app.HRMIS', {
+                     url: "/HRMIS",
+                     views: {
+                         'menuContent': {
+                             templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/HRMIS.html",
+                         }
+                     }
+                 })
+               .state('app.myGovernment', {
+                    url: "/myGovernment",
+                    views: {
+                        'menuContent': {
+                            templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/portal-myGovernment.html",
+                        }
+                    }
+                })
+              .state('app.pusatSumber', {
+                   url: "/pusatSumber",
+                   views: {
+                       'menuContent': {
+                           templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/pusat-sumber.html",
+                       }
+                   }
+               })
+            .state('app.singleSignon', {
+                url: "/singleSignon",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/single-sign-on.html",
+                    }
+                }
+             })
+            .state('app.Webmel', {
+                 url: "/webmel",
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/webmel.html",
                      }
                  }
              })
 
-              .state('app.kenyataanMedia', {
-                   url: "/kenyataanMedia",
-                   views: {
-                       'menuContent': {
-                           templateUrl: "templates/themes/expense-dashboard/html/kenyataanmedia.html",
-                       }
-                   }
-               })
-
-               .state('app.cms', {
-                    url: "/cms",
-                    views: {
-                        'menuContent': {
-                            templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/c-m-s.html",
-                        }
-                    }
-                })
-                .state('app.iklan', {
-                     url: "/iklan",
-                     views: {
-                         'menuContent': {
-                             templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/iklan.html",
-                         }
-                     }
-                 })
-                 .state('app.jabatanPM', {
-                      url: "/jabtanpm",
-                      views: {
-                          'menuContent': {
-                              templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/jabatan-pm.html",
-                          }
+             .state('app.CMS', {
+                  url: "/cms",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/CMS.html",
                       }
-                  })
-                  .state('app.kenaliRasuah', {
-                       url: "/kenaliRasuah",
-                       views: {
-                           'menuContent': {
-                               templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/kenali-rasuah.html",
-                           }
-                       }
-                   })
-                   .state('app.laporkanRasuah', {
-                        url: "/laporkanRasuah",
-                        views: {
-                            'menuContent': {
-                                templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/laporkan-rasuah.html",
-                                controller: 'contractUsCtrl'
-                            }
-                        }
-                    })
-                    .state('app.mekanisme', {
-                         url: "/mekanisme",
-                         views: {
-                             'menuContent': {
-                                 templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/mekanisme.html",
-                             }
-                         }
-                     })
-                     .state('app.nkra', {
-                          url: "/cms",
-                          views: {
-                              'menuContent': {
-                                  templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/nkra.html",
-                              }
-                          }
-                      })
-                      .state('app.soalanLazim', {
-                           url: "/cms",
-                           views: {
-                               'menuContent': {
-                                   templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/soalan-lazim.html",
-                               }
-                           }
-                       })
-                       .state('app.tawaranTender', {
-                            url: "/cms",
-                            views: {
-                                'menuContent': {
-                                    templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/tawaran-tender.html",
-                                }
-                            }
-                        })
-                        .state('app.seapac', {
-                             url: "/cms",
-                             views: {
-                                 'menuContent': {
-                                     templateUrl: "templates/themes/expense-dashboard/html/seapac.html",
-                                 }
-                             }
-                         })
-
-                         .state('app.bidangKuasa', {
-                              url: "/bidangKuasa",
-                              views: {
-                                  'menuContent': {
-                                      templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/bidang-kuasa.html",
-                                  }
-                              }
-                          })
-                          .state('app.eSTK', {
-                               url: "/eSTK",
-                               views: {
-                                   'menuContent': {
-                                       templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/eSTK.html",
-                                   }
-                               }
-                           })
-                           .state('app.keterlibatan', {
-                                url: "/keterlibatan",
-                                views: {
-                                    'menuContent': {
-                                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/keterlibatan.html",
-                                    }
-                                }
-                            })
-                            .state('app.permohonanProgram', {
-                                 url: "/permohonanProgram",
-                                 views: {
-                                     'menuContent': {
-                                         templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/permohonan-program.html",
-                                     }
-                                 }
-                             })
-                             .state('app.senaraiPegawai', {
-                                  url: "/senaraiPegawai",
-                                  views: {
-                                      'menuContent': {
-                                          templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/senarai-pegawai.html",
-                                      }
-                                  }
-                              })
-                              .state('app.sistemMaklumat', {
-                                   url: "/sistemMaklumat",
-                                   views: {
-                                       'menuContent': {
-                                           templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/sistem-maklumat-kursus-MACA.html",
-                                       }
-                                   }
-                               })
-
-                               .state('app.aduanPentadbir', {
-                                    url: "/aduanPentadbir",
-                                    views: {
-                                        'menuContent': {
-                                            templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/aduan-pentadbir-portal.html",
-                                        }
-                                    }
-                                })
-                                .state('app.HRMIS', {
-                                     url: "/HRMIS",
-                                     views: {
-                                         'menuContent': {
-                                             templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/HRMIS.html",
-                                         }
-                                     }
-                                 })
-                                 .state('app.myGovernment', {
-                                      url: "/myGovernment",
-                                      views: {
-                                          'menuContent': {
-                                              templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/portal-myGovernment.html",
-                                          }
-                                      }
-                                  })
-                                  .state('app.pusatSumber', {
-                                       url: "/pusatSumber",
-                                       views: {
-                                           'menuContent': {
-                                               templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/pusat-sumber.html",
-                                           }
-                                       }
-                                   })
-                                   .state('app.singleSignon', {
-                                        url: "/singleSignon",
-                                        views: {
-                                            'menuContent': {
-                                                templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/single-sign-on.html",
-                                            }
-                                        }
-                                    })
-                                    .state('app.Webmel', {
-                                         url: "/webmel",
-                                         views: {
-                                             'menuContent': {
-                                                 templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/webmel.html",
-                                             }
-                                         }
-                                     })
-
-                                     .state('app.CMS', {
-                                          url: "/cms",
-                                          views: {
-                                              'menuContent': {
-                                                  templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/CMS.html",
-                                              }
-                                          }
-                                      })
-                                      .state('app.alamatPejabat', {
-                                           url: "/alamatPejabat",
-                                           views: {
-                                               'menuContent': {
-                                                   templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/alamat-pejabat.html",
-                                               }
-                                           }
-                                       })
-
-
-
-
+                  }
+              })
+            .state('app.alamatPejabat', {
+                 url: "/alamatPejabat",
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/alamat-pejabat.html",
+                     }
+                 }
+             })
             //end of open next page Mainmenu
 
 
@@ -1074,6 +1118,33 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/menu-dashboard/html/menu-dashboard2.html"
+                    }
+                }
+            })
+
+            .state('app.estk', {
+                url: "/estk",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/menu-dashboard/html/estk.html"
+                    }
+                }
+            })
+
+            .state('app.smkmaca', {
+                url: "/smkmaca",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/menu-dashboard/html/smkmaca.html"
+                    }
+                }
+            })
+
+            .state('app.webmaster', {
+                url: "/smkmaca",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/menu-dashboard/html/webmaster.html"
                     }
                 }
             })

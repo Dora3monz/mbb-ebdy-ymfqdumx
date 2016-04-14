@@ -39,7 +39,7 @@ appControllers.controller('productListCtrl', function ($scope, $timeout, $state,
             //get product list from json  at paht: www/app-data/product-list.json
             //url for json  http://www.pkns.gov.my/json/desc_content.json
 
-              $http.get('http://www.sprm.gov.my/index.php/my/?option=com_jsonexport&table=terkini_pengumuman')
+            $http.get('http://www.sprm.gov.my/index.php/my/?option=com_jsonexport&table=terkini_pengumuman')
                 .success(function (productList) {
                     // Success retrieve data.
                         // Store user data to $scope.productList.
@@ -74,9 +74,9 @@ appControllers.controller('productListCtrl', function ($scope, $timeout, $state,
     $scope.loadMore = function () {
         $timeout(function () {
             //get product list from json  at paht: www/app-data/product-list.json
-            //url for json  http://www.sprm.gov.my/json/terkini_pengumuman.json
+            //url for json  http://www.pkns.gov.my/json/desc_content.json
 
-              $http.get('http://www.sprm.gov.my/index.php/my/?option=com_jsonexport&table=terkini_pengumuman')
+            $http.get('http://www.sprm.gov.my/index.php/my/?option=com_jsonexport&table=terkini_pengumuman')
                 .success(function (productList) {
                     // Success retrieve data.
                         // Store user data to $scope.productList.

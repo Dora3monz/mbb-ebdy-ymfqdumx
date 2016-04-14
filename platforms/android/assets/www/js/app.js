@@ -489,7 +489,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/AgensiKerajaan",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/menu-DashboardAgensiKerajaan.html"
+                        templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/menu-dashboardAgensiKerajaan.html"
                     }
                 }
             })
@@ -497,11 +497,32 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/InfoSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/menu-DashboardInfoSPRM.html"
-                        // controller: 'facebookFriendListCtrl'
+                        templateUrl: "templates/themes/expense-dashboard/html/menu-dashboardInfoSPRM.html"
                     }
                 }
             })
+            .state('app.kenyataanList', {
+                url: "/kenyataanList",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/kenyataan-media.html",
+                        controller: 'kenyataanCtrl'
+                    }
+                }
+            })
+            .state('app.detailKenyataan', {
+                url: "/detailKenyataan",
+                params: {
+                    product: null,
+                },
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/detailKenyataan-media.html",
+                        controller: 'detailKenyataanCtrl'
+                    }
+                }
+            })
+
            .state('app.jadualBicara', {
                 url: "/jadualBicara",
                 views: {
@@ -725,10 +746,6 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                                                }
                                            }
                                        })
-
-
-
-
             //end of open next page Mainmenu
 
 
@@ -871,29 +888,6 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-            .state('app.terkiniDetail', {
-                 url: "/terkiniDetail",
-                 params: {
-                     product: null,
-                 },
-                 views: {
-                     'menuContent': {
-                         templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/terkini-detail.html",
-                         controller: 'productDetailCtrl'
-                     }
-                 }
-             })
-
-             .state('app.terkiniList', {
-                  url: "/terkiniList",
-                  views: {
-                      'menuContent': {
-                          templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/terkini-list.html",
-                          controller: 'productListCtrl'
-                      }
-                  }
-              })
-
             .state('app.productList', {
                 url: "/productList",
                 views: {
@@ -915,15 +909,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
-            .state('app.productCheckout', {
-                url: "/productCheckout",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/share-application-content/social-share/html/product-checkout.html",
-                        controller: 'productCheckoutCtrl'
-                    }
-                }
-            })
+
             .state('app.contractUs', {
                 url: "/contractUs",
                 views: {
