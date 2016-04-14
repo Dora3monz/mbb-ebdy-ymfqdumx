@@ -871,24 +871,24 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-            .state('app.productList2', {
+            .state('app.productList', {
                 url: "/productList",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/social-share/html/product-list.html",
-                        controller: 'productListCtrl2'
+                        templateUrl: "templates/share-application-content/social-share/html/product-list.html",
+                        controller: 'productListCtrl'
                     }
                 }
             })
-            .state('app.productDetail2', {
+            .state('app.productDetail', {
                 url: "/productDetail",
                 params: {
                     product: null,
                 },
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/social-share/html/product-detail.html",
-                        controller: 'productDetailCtrl2'
+                        templateUrl: "templates/share-application-content/social-share/html/product-detail.html",
+                        controller: 'productDetailCtrl'
                     }
                 }
             })
