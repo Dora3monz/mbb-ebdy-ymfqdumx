@@ -497,7 +497,8 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/InfoSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/menu-DashboardInfoSPRM.html"
+                        templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/menu-DashboardInfoSPRM.html"
+                        // controller: 'facebookFriendListCtrl'
                     }
                 }
             })
@@ -518,24 +519,6 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                      }
                  }
              })
-
-             .state('app.terkiniDetail', {
-                  url: "/terkiniDetail",
-                  views: {
-                      'menuContent': {
-                          templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/terkini-detail.html",
-                      }
-                  }
-              })
-
-              .state('app.terkiniList', {
-                   url: "/terkiniList",
-                   views: {
-                       'menuContent': {
-                           templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/terkini-list.html",
-                       }
-                   }
-               })
 
               .state('app.kenyataanMedia', {
                    url: "/kenyataanMedia",
@@ -887,6 +870,30 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
+
+            .state('app.terkiniDetail', {
+                 url: "/terkiniDetail",
+                 params: {
+                     product: null,
+                 },
+                 views: {
+                     'menuContent': {
+                         templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/terkini-detail.html",
+                         controller: 'productDetailCtrl'
+                     }
+                 }
+             })
+
+             .state('app.terkiniList', {
+                  url: "/terkiniList",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/html/terkini-list.html",
+                          controller: 'productListCtrl'
+                      }
+                  }
+              })
+
             .state('app.productList', {
                 url: "/productList",
                 views: {

@@ -10,52 +10,19 @@
     <ion-content id="product-list-content" class="fade-in">
       <md-list>
         <md-list-item class="md-2-line" ng-repeat="product in productList"
-             ng-click="navigateTo('app.terkiniDetail',product)">
+             ng-click="navigateTo('app.productDetail',product)">
             <!-- <span><i class="fa fa-tags fa-3x" style="padding: 0px 15px 0px 0px; color: #F44336; "></i></span> -->
             <div class="md-list-item-text">
                 <h3>{{product.title}}</h3>
-                <p>{{product.created}}</p>
+                <p>{{product.created.substr(0, 10)}}</p>
                 <p align="right"><font color="blue">Lihat Sepenuhnya..</font></p>
             </div>
             <md-divider></md-divider>
         </md-list-item>
       </md-list>
-
-        <!--toolbar section-->
-        <!-- <md-toolbar class="bar-subheader md-tall md-primary toolbar-medium toolbar-in-content">
-            <div>
-              <h2>Berita Dan Pengumuman</h2>
-            </div>
-        </md-toolbar> -->
-        <!--end toolbar section-->
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col"> -->
-                <!--pin section-->
-                <!-- <div class="pin" ng-if="$even" ng-repeat="product in productList"
-                     ng-click="navigateTo('app.productDetail',product)">
-                    <h1>{{product.title}}</h1>
-                  <div class="pin-footer">
-                      <span class="pin-footer text-right">Detail</span>
-                  </div> -->
-                <!-- </div> --> <!--end pin section-->
-            <!-- </div> -->
-            <!-- <div class="col"> -->
-          <!-- </div> -->
-            <!-- <div class="col"> -->
-                <!--pin section-->
-                <!-- <div class="pin" ng-if="$odd" ng-repeat="product in productList"
-                     ng-click="navigateTo('app.productDetail',product)">
-                      <h1>{{product.title}}</h1>
-                    <div class="pin-footer">
-                        <span class="pin-footer text-right">Detail</span>
-                    </div> -->
-                <!-- </div>-->  <!--end pin section-->
-            <!-- </div>  -->
-        <!-- </div> -->
-      <!--  <ion-infinite-scroll on-infinite="loadMore()" distance="1%">
-      </ion-infinite-scroll> -->
     </ion-content>
+
+
     <!--end product list section-->
 
     <!--loading progress-->

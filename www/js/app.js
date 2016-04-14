@@ -497,7 +497,8 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 url: "/InfoSPRM",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/menu-DashboardInfoSPRM.html"
+                        templateUrl: "templates/themes/expense-dashboard/html/menu-DashboardInfoSPRM.html"
+                        // controller: 'facebookFriendListCtrl'
                     }
                 }
             })
@@ -518,24 +519,6 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                      }
                  }
              })
-
-             .state('app.terkiniDetail', {
-                  url: "/terkiniDetail",
-                  views: {
-                      'menuContent': {
-                          templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/terkini-detail.html",
-                      }
-                  }
-              })
-
-              .state('app.terkiniList', {
-                   url: "/terkiniList",
-                   views: {
-                       'menuContent': {
-                           templateUrl: "templates/themes/expense-dashboard/html/Info-SPRM/terkini-list.html",
-                       }
-                   }
-               })
 
               .state('app.kenyataanMedia', {
                    url: "/kenyataanMedia",
@@ -887,36 +870,29 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
-            .state('app.productList', {
+
+            .state('app.productList2', {
                 url: "/productList",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/share-application-content/social-share/html/product-list.html",
-                        controller: 'productListCtrl'
+                        templateUrl: "templates/themes/expense-dashboard/social-share/html/product-list.html",
+                        controller: 'productListCtrl2'
                     }
                 }
             })
-            .state('app.productDetail', {
+            .state('app.productDetail2', {
                 url: "/productDetail",
                 params: {
                     product: null,
                 },
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/share-application-content/social-share/html/product-detail.html",
-                        controller: 'productDetailCtrl'
+                        templateUrl: "templates/themes/expense-dashboard/social-share/html/product-detail.html",
+                        controller: 'productDetailCtrl2'
                     }
                 }
             })
-            .state('app.productCheckout', {
-                url: "/productCheckout",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/share-application-content/social-share/html/product-checkout.html",
-                        controller: 'productCheckoutCtrl'
-                    }
-                }
-            })
+
             .state('app.contractUs', {
                 url: "/contractUs",
                 views: {
