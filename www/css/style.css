@@ -1363,11 +1363,11 @@ md-sidenav {
     text-align: center;
     height: inherit !important; }
   #expense-dashboard .toolbar-expense h1 {
-    color: #FD800A;
+    color: #080808;
     font-size: 30px;
     font-weight: 400; }
   #expense-dashboard .toolbar-expense h2 {
-    color: #FD800A;
+    color: #080808;
     font-size: 16px; }
   #expense-dashboard .toolbar-expense h3 {
     color: white;
