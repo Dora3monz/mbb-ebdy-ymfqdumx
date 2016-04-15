@@ -29,13 +29,13 @@ appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialShar
     $scope.initialForm = function () {
         // $scope.contractInfo is store contract us data
         $scope.contractInfo = {
-            telephone: "03 - 8886 7000",
-            fax:"03 - 8888 9562",
+            telephone: "+603-8886 7000",
+            sms:"+6019-6000 696",
+            fax:"+603-8888 9562",
             email: "info@sprm.gov.my"
         };
-        $scope.destinationLocation = " 3.070378,101.517234";
+        $scope.destinationLocation = " 2.937297,101.705073";
     };// End initialForm.
-
     // sentSms is for send message by calling $cordovaSms
     // Parameter :
     // phoneNumber = number of sending message

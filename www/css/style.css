@@ -207,7 +207,8 @@ md-sidenav {
 
 .material-background-bar {
   background-image: url("../img/sprm/background.png") !important;
-  background-position: center !important; }
+  background-position: center !important;
+  background-size: cover; }
 
 .material-background-nav-bar {
   background-color: #f44336 !important;
@@ -305,7 +306,7 @@ md-sidenav {
     color: white;
     font-size: 34px; }
   .toolbar-with-image h2 {
-    color: #f44336;
+    color: white;
     font-size: 18px; }
   .toolbar-with-image h3 {
     color: white;

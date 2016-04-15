@@ -357,6 +357,7 @@ md-sidenav {
 .material-background-bar{
  background-image: url('../img/sprm/background.png') !important;
  background-position: center !important;
+ background-size: cover;
 }
 
 .material-background-nav-bar {
@@ -485,6 +486,7 @@ md-sidenav {
   }
 }
 
+
 //hubungi kami ui
 .toolbar-with-image {
   max-height: 210px !important;
@@ -505,7 +507,7 @@ md-sidenav {
   }
 
   h2 {
-    color: #f44336;
+    color: $color_white;
     font-size: 18px;
   }
 

@@ -609,12 +609,12 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                      }
                  }
              })
-           .state('app.laporkanRasuah', {
+           .state('app.laporkan_Rasuah', {
                 url: "/laporkanRasuah",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/laporkan-rasuah.html",
-                        controller: 'contractUsCtrl'
+                        //controller: 'contractUsCtrl'
                     }
                 }
             })
@@ -1114,7 +1114,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
             })
 
             .state('app.menuDashboard2', {
-                url: "/menuDashboard1",
+                url: "/menuDashboard2",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/menu-dashboard/html/menu-dashboard2.html"

@@ -22,16 +22,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             scope: $scope.$new(false),
         });
     };
-    $scope.showListBottomSheet1 = function ($event1) {
-        $mdBottomSheet.show({
-            templateUrl: 'ui-list-bottom-sheet-template1',
-            targetEvent: $event1,
-            scope: $scope.$new(false),
-        });
-    };// End of showListBottomSheet
-
   });// End of controller expense dashboard.
-
 
 // Controller of expense dashboard setting.
 appControllers.controller('expenseDashboardSettingCtrl', function ($scope, $state,$ionicHistory,$ionicViewSwitcher) {
@@ -178,12 +169,12 @@ appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialShar
     $scope.initialForm = function () {
         // $scope.contractInfo is store contract us data
         $scope.contractInfo = {
-            telephone: "1-800-88-6000",
+            telephone: "+603-8886 7000",
             sms:"+6019-6000 696",
-            fax:"+603-8889 4329",
+            fax:"+603-8888 9562",
             email: "info@sprm.gov.my"
         };
-        $scope.destinationLocation = " 3.070378,101.517234";
+        $scope.destinationLocation = " 2.937297,101.705073";
     };// End initialForm.
 
     // sentSms is for send message by calling $cordovaSms
