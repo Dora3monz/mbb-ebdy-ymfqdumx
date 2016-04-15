@@ -29,9 +29,9 @@ appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialShar
     $scope.initialForm = function () {
         // $scope.contractInfo is store contract us data
         $scope.contractInfo = {
-            telephone: "03 - 5520 1234",
-            fax:"03 - 5510 3895",
-            email: "aduan@pkns.gov.my"
+            telephone: "03 - 8886 7000",
+            fax:"03 - 8888 9562",
+            email: "info@sprm.gov.my"
         };
         $scope.destinationLocation = " 3.070378,101.517234";
     };// End initialForm.
