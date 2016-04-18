@@ -627,7 +627,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                  }
              })
              .state('app.nkra', {
-                  url: "/cms",
+                  url: "nkra",
                   views: {
                       'menuContent': {
                           templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/nkra.html",
@@ -635,7 +635,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                   }
               })
               .state('app.soalanLazim', {
-                   url: "/cms",
+                   url: "soalanLazim",
                    views: {
                        'menuContent': {
                            templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/soalan-lazim.html",
@@ -643,7 +643,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                    }
                })
                .state('app.tawaranTender', {
-                    url: "/cms",
+                    url: "tawaranTender",
                     views: {
                         'menuContent': {
                             templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/tawaran-tender.html",
@@ -651,7 +651,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 })
                 .state('app.seapac', {
-                     url: "/cms",
+                     url: "seapac",
                      views: {
                          'menuContent': {
                              templateUrl: "templates/themes/expense-dashboard/html/seapac.html",
@@ -660,7 +660,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                  })
 
                  .state('app.bidangKuasa', {
-                      url: "/bidangKuasa",
+                      url: "bidangKuasa",
                       views: {
                           'menuContent': {
                               templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/bidang-kuasa.html",
@@ -668,7 +668,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                       }
                   })
                   .state('app.eSTK', {
-                       url: "/eSTK",
+                       url: "eSTK",
                        views: {
                            'menuContent': {
                                templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/eSTK.html",
@@ -676,7 +676,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                        }
                    })
                  .state('app.keterlibatan', {
-                      url: "/keterlibatan",
+                      url: "keterlibatan",
                       views: {
                           'menuContent': {
                               templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/keterlibatan.html",
@@ -684,7 +684,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                       }
                   })
                   .state('app.permohonanProgram', {
-                       url: "/permohonanProgram",
+                       url: "permohonanProgram",
                        views: {
                            'menuContent': {
                                templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/permohonan-program.html",
@@ -692,7 +692,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                        }
                    })
                    .state('app.senaraiPegawai', {
-                        url: "/senaraiPegawai",
+                        url: "senaraiPegawai",
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/senarai-pegawai.html",
@@ -700,7 +700,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                         }
                     })
                   .state('app.sistemMaklumat', {
-                       url: "/sistemMaklumat",
+                       url: "sistemMaklumat",
                        views: {
                            'menuContent': {
                                templateUrl: "templates/themes/expense-dashboard/html/Agensi-Kerajaan/sistem-maklumat-kursus-MACA.html",
@@ -709,7 +709,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                    })
 
                  .state('app.aduanPentadbir', {
-                      url: "/aduanPentadbir",
+                      url: "aduanPentadbir",
                       views: {
                           'menuContent': {
                               templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/aduan-pentadbir-portal.html",
@@ -717,7 +717,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                       }
                   })
                 .state('app.HRMIS', {
-                     url: "/HRMIS",
+                     url: "HRMIS",
                      views: {
                          'menuContent': {
                              templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/HRMIS.html",
@@ -725,7 +725,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                      }
                  })
                .state('app.myGovernment', {
-                    url: "/myGovernment",
+                    url: "myGovernment",
                     views: {
                         'menuContent': {
                             templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/portal-myGovernment.html",
@@ -733,7 +733,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 })
               .state('app.pusatSumber', {
-                   url: "/pusatSumber",
+                   url: "pusatSumber",
                    views: {
                        'menuContent': {
                            templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/pusat-sumber.html",
@@ -741,7 +741,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                    }
                })
             .state('app.singleSignon', {
-                url: "/singleSignon",
+                url: "singleSignon",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/single-sign-on.html",
@@ -749,7 +749,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
              })
             .state('app.Webmel', {
-                 url: "/webmel",
+                 url: "webmel",
                  views: {
                      'menuContent': {
                          templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/webmel.html",
@@ -758,21 +758,30 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
              })
 
              .state('app.CMS', {
-                  url: "/cms",
+                  url: "cms",
                   views: {
                       'menuContent': {
-                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/CMS.html",
+                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/CMS.html",
                       }
                   }
               })
             .state('app.alamatPejabat', {
-                 url: "/alamatPejabat",
+                 url: "alamatPejabat",
                  views: {
                      'menuContent': {
-                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/Laporkan-Rasuah/alamat-pejabat.html",
+                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/alamat-pejabat.html",
                      }
                  }
              })
+
+             .state('app.faks', {
+                  url: "faks",
+                  views: {
+                      'menuContent': {
+                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/faks.html",
+                      }
+                  }
+              })
             //end of open next page Mainmenu
 
 

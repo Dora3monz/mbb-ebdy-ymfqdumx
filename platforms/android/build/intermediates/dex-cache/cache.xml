@@ -2,46 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\test\github\APP-SPRM-Material\platforms\android\libs\google-play-services.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
-        <dex dex="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\pre-dexed\debug\google-play-services_828529dec61e446c585313f31fb2a56861c8d052.jar" />
-    </item>
-    <item
-        jar="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3afd0d4f5335e28c9fd746b20ab7d38628f5057b">
-        <dex dex="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_aa167e9ff10b031ab4e55e30eae26d25ed03ef51.jar" />
-    </item>
-    <item
-        jar="C:\Users\test\github\APP-PKNS-Material\platforms\android\libs\google-play-services.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
-        <dex dex="C:\Users\test\github\APP-PKNS-Material\platforms\android\build\intermediates\pre-dexed\debug\google-play-services_9bfdd732156f56d016fb4102f26c54bafbd13c56.jar" />
-    </item>
-    <item
-        jar="C:\Users\test\github\APP-PKNS-Material\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9d171e11b3aa3a7ad61855f4ec0027a931db7712">
-        <dex dex="C:\Users\test\github\APP-PKNS-Material\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_0c9243e72497c997329f0e59e0f5efa05c6e85ce.jar" />
-    </item>
-    <item
         jar="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="40e852afdc0d93340a10817368f15a95db65cdcb">
+        sha1="187ef5263c53b57347a10544a8e1ca3c2718ca77">
         <dex dex="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_81a0453bf4e757bd8988de98f369e9b483f4f276.jar" />
-    </item>
-    <item
-        jar="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\libs\google-play-services.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
-        <dex dex="C:\Users\test\Desktop\APP-SPRM-Material\platforms\android\build\intermediates\pre-dexed\debug\google-play-services_efaacbc2fad67b84b0dbabe04b1918fc67c19c6e.jar" />
     </item>
 
 </items>

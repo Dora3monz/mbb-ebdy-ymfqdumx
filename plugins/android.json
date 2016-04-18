@@ -9,42 +9,6 @@
     "installed_plugins": {
         "com.cordova.plugins.sms": {
             "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-googleplayservices": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-contacts": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-transport-security": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
-        },
-        "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
         }
     },
     "dependent_plugins": {}

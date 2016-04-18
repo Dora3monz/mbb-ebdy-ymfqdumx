@@ -57,7 +57,5 @@
       "id": "cordova-plugin-x-socialsharing"
     }
   ],
-  "cordovaPlatforms": [
-    "android"
-  ]
+  "cordovaPlatforms": []
 }
