@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\test\github\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ad69d61ce599f314fc0d3ffc1e84d788cd56872b">
+        <dex dex="C:\Users\test\github\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_d6ffbd65a7a6e6d1c5b85a6931820856841a25a6.jar" />
+    </item>
+    <item
         jar="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"

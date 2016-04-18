@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\test\\github\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\test\\github\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
         "merged": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
         "source": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\xml\\config.xml"
     }
