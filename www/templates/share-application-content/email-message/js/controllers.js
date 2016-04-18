@@ -34,7 +34,7 @@ appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialShar
             fax:"+603-8888 9562",
             email: "info@sprm.gov.my"
         };
-        $scope.destinationLocation = " 2.937297,101.705073";
+        $scope.destinationLocation = "2.937297,101.705073";
     };// End initialForm.
     // sentSms is for send message by calling $cordovaSms
     // Parameter :

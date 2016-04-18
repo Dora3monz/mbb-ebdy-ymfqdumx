@@ -144,7 +144,7 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
       // It will initial all variable data and let the function works when page load.
       $scope.initialForm = function () {
       	//destinationLocation is latitude,longitude of the destination location.
-          $scope.destinationLocation = " 3.070378,101.517234";
+          $scope.destinationLocation = "2.937297,101.705073";
       };// End initialForm
 
       // openMap is for open Google Map application.
