@@ -558,6 +558,14 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                    }
                }
            })
+           .state('app.statistik_dataPesalah', {
+                url: "/statistik_dataPesalah",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/statistik-Pesalah-Rasuah.html",
+                    }
+                }
+            })
 
            .state('app.statistikTangkapan', {
                 url: "/statistikTangkapan",
