@@ -2170,13 +2170,14 @@ md-sidenav {
     }
 
     h1 {
-      color: #FF9B07;
+      padding-top: 15px;
+      color: $color_white;
       font-size: 30px;
       font-weight: 400;
     }
 
     h2 {
-      color: #FF9B07;
+      color: $color_white;
       font-size: 16px;
     }
 
