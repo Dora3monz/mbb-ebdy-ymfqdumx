@@ -622,7 +622,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/laporkan-rasuah.html",
-                        controller: 'contractUsCtrl'
+                        controller: 'expenseDashboardCtrl'
                     }
                 }
             })
