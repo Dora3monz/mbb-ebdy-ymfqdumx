@@ -275,12 +275,13 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
         // mdIconProvider is function of Angular Material.
         // It use for reference .SVG file and improve performance loading.
         $mdIconProvider
-            .icon('facebook', 'img/icons/facebook.svg')
-            .icon('twitter', 'img/icons/twitter.svg')
+            .icon('facebook', 'img/icons/facebooks.svg')
+            .icon('twitter', 'img/icons/twitters.svg')
             .icon('mail', 'img/icons/mail.svg')
             .icon('message', 'img/icons/message.svg')
             .icon('share-arrow', 'img/icons/share-arrow.svg')
-            .icon('more', 'img/icons/more_vert.svg');
+            .icon('more', 'img/icons/more_vert.svg')
+            .icon('flickr', 'img/icons/flickr.svg');
 
         //mdThemingProvider use for change theme color of Ionic Material Design Application.
         /* You can select color from Material Color List configuration :
