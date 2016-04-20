@@ -707,7 +707,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                             }
                         }
                     })
-                  .state('app.sistemMaklumat', {
+             .state('app.sistemMaklumat', {
                        url: "sistemMaklumat",
                        views: {
                            'menuContent': {
@@ -716,7 +716,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                        }
                    })
 
-                 .state('app.aduanPentadbir', {
+            .state('app.aduanPentadbir', {
                       url: "aduanPentadbir",
                       views: {
                           'menuContent': {
@@ -724,7 +724,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                           }
                       }
                   })
-                .state('app.HRMIS', {
+            .state('app.HRMIS', {
                      url: "HRMIS",
                      views: {
                          'menuContent': {
@@ -732,15 +732,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                          }
                      }
                  })
-               .state('app.myGovernment', {
-                    url: "myGovernment",
-                    views: {
-                        'menuContent': {
-                            templateUrl: "templates/themes/expense-dashboard/html/Warga-SPRM/portal-myGovernment.html",
-                        }
-                    }
-                })
-              .state('app.pusatSumber', {
+            .state('app.pusatSumber', {
                    url: "pusatSumber",
                    views: {
                        'menuContent': {
