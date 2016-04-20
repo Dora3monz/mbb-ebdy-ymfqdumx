@@ -29,6 +29,7 @@ appControllers.controller('contractUsCtrl', function ($scope, $cordovaSocialShar
     $scope.initialForm = function () {
         // $scope.contractInfo is store contract us data
         $scope.contractInfo = {
+            tel: "1-800-88-6000",
             telephone: "+603-8886 7000",
             sms:"+6019-6000 696",
             fax:"+603-8888 9562",

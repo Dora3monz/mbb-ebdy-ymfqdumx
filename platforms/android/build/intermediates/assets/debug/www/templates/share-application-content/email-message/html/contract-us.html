@@ -63,7 +63,7 @@
                 {{contractInfo.fax}}
             </div>
             <div class="col-25">
-                <i class="fa fa-fax"></i>
+                <i class="fa fa-print"></i>
             </div>
         </div>
 
@@ -87,8 +87,11 @@
 
         </div>
         <div class="row content">
-            <div class="col-90">
-                Sila hubungi kami jika ada sebarang masalah atau pertanyaan
+            <div class="col-75" ng-click="navigateTo('app.alamatPejabat')">
+                Senarai penuh pejabat-pejabat SPRM
+            </div>
+            <div class="col-25">
+                <i class="fa fa-building" ng-click="navigateTo('app.alamatPejabat')"></i>
             </div>
         </div>
         <!--end content section-->

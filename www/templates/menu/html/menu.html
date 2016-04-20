@@ -21,7 +21,7 @@
             <div class="menu-left-header">
                 <img class="user-img" src="img/sprm/icon2.png">
                   <p>
-                      <span class="title">1-800-88-6000</span>
+                      <span><a class="title" href="" ng-click"callTo(contractInfo.tel)">{{contractInfo.tel}}</a></span>
                       <br/>
                       <span class="sub-title">Laporkan Rasuah</span>
                   </p>
@@ -99,7 +99,6 @@
                         <span>ACE</span>
                     </div>
                 </div>
-                <br>
                 <hr/>
                 <div class="row menu-item"  ng-click="openMap(destinationLocation)">
                     <div class="col-33">

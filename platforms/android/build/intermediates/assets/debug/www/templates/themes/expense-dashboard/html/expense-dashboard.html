@@ -35,73 +35,67 @@
 
         <!--Below code it will show animation when selecting row.-->
         <md-list ng-if="isAnimated">
-            <md-list-item class="row" ng-click="navigateTo('app.menuDashboardOrangAwam')">
-                <div class="col-20 icon">
-                    <i class="fa fa-users"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Orang Awam</p>
-                    <p class="detail">khidmat dan servis untuk orang Awam</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.menuDashboardInfoSPRM')">
+              <div class="col-20 icon">
+                  <i class="fa fa-bullhorn"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Info SPRM Terkini</p>
 
-            <md-list-item class="row" ng-click="navigateTo('app.menuDashboardWargaSPRM')">
-                <div class="col-20 icon">
-                    <i class="fa fa-user"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Warga SPRM</p>
-                    <p class="detail">Ahli dan Staf SPRM</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
-
-            <md-list-item class="row" ng-click="navigateTo('app.menuDashboardAgensiKerajaan')">
-                <div class="col-20 icon">
-                    <i class="fa fa-briefcase"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Agensi Kerajaan</p>
-                    <p class="detail">Pengusaha dan Pemaju</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
-
-            <md-list-item class="row" ng-click="navigateTo('app.menuDashboardInfoSPRM')">
-                <div class="col-20 icon">
-                    <i class="fa fa-bullhorn"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Info SPRM Terkini</p>
-
-                    <p class="detail">Berita semasa</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
-
-            <md-list-item class="row" ng-click="navigateTo('app.jadualBicara')">
-                <div class="col-20 icon">
-                    <i class="fa fa-calendar"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Jadual Bicara</p>
-                    <p class="detail">Tarikh-tarikh perbicaraan</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
-
-            <md-list-item class="row" ng-click="navigateTo('app.dataPesalah')">
-                <div class="col-20 icon">
-                    <i class="fa fa-book"></i>
-                </div>
-                <div class="col-80 menu">
-                    <p class="header">Data Pesalah</p>
-                    <p class="detail">Rekod maklumat pesalah</p>
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
-
+                  <p class="detail">Berita semasa</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.menuDashboardOrangAwam')">
+              <div class="col-20 icon">
+                  <i class="fa fa-users"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Orang Awam</p>
+                  <p class="detail">khidmat dan servis untuk orang Awam</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.menuDashboardWargaSPRM')">
+              <div class="col-20 icon">
+                  <i class="fa fa-user"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Warga SPRM</p>
+                  <p class="detail">Ahli dan Staf SPRM</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.menuDashboardAgensiKerajaan')">
+              <div class="col-20 icon">
+                  <i class="fa fa-briefcase"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Agensi Kerajaan</p>
+                  <p class="detail">Pengusaha dan Pemaju</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.jadualBicara')">
+              <div class="col-20 icon">
+                  <i class="fa fa-calendar"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Jadual Bicara</p>
+                  <p class="detail">Tarikh-tarikh perbicaraan</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
+          <md-list-item class="row" ng-click="navigateTo('app.dataPesalah')">
+              <div class="col-20 icon">
+                  <i class="fa fa-legal"></i>
+              </div>
+              <div class="col-80 menu">
+                  <p class="header">Data Pesalah</p>
+                  <p class="detail">Rekod maklumat pesalah</p>
+              </div>
+          </md-list-item>
+          <md-divider></md-divider>
         </md-list>
     </ion-content><!--end expense content section-->
 
@@ -111,19 +105,19 @@
             <md-list id="bottom-sheet-grid-md-list">
                 <md-list-item>
                     <a class="md-grid-item-content" onclick="window.open('http://www.facebook.com/sprm.benci.rasuah', '_system', 'location=yes'); return false;">
-                        <md-icon md-svg-src="facebook"></md-icon>
+                        <md-icon md-svg-src ='/img/icons/facebooks.svg'></md-icon>
                         <div class="md-grid-text"> Facebook</div>
                     </a>
                 </md-list-item>
                 <md-list-item>
                     <a class="md-grid-item-content" onclick="window.open('https://twitter.com/SPRMMalaysia', '_system', 'location=yes'); return false;">
-                        <md-icon md-svg-src="twitter"></md-icon>
+                        <md-icon md-svg-src ='/img/icons/twitters.svg'></md-icon>
                         <div class="md-grid-text"> Twitter</div>
                     </a>
                 </md-list-item>
                 <md-list-item>
                     <a class="md-grid-item-content" onclick="window.open('https://www.flickr.com/photos/ourdifferentview', '_system', 'location=yes'); return false;">
-                        <md-icon md-svg-src="flickr"></md-icon>
+                        <md-icon md-svg-src ='/img/icons/flickr.svg'></md-icon>
                         <div class="md-grid-text">Flickr</div>
                     </a>
                 </md-list-item>

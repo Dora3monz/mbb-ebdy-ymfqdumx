@@ -1,9 +1,45 @@
 // Controller of menu toggle.
 // Learn more about Sidenav directive of angular material
 // https://material.angularjs.org/latest/#/demo/material.components.sidenav
-appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSidenav, $log, $ionicHistory, $state, $ionicPlatform, $mdDialog, $mdBottomSheet, $mdMenu, $mdSelect) {
+appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSidenav, $log, $ionicHistory, $cordovaSocialSharing, $state, $ionicPlatform, $mdDialog, $mdBottomSheet, $mdMenu, $mdSelect) {
 
-    $scope.toggleLeft = buildToggler('left');
+
+    // initialForm is the first activity in the controller.
+    // It will initial all variable data and let the function works when page load.
+    $scope.initialForm = function () {
+      	//destinationLocation is latitude,longitude of the destination location.
+        $scope.contractInfo = {
+            tel: "1-800-88-6000",
+            telephone: "+603-8886 7000",
+            sms:"+6019-6000 696",
+            fax:"+603-8888 9562",
+            email: "info@sprm.gov.my"
+        };
+          $scope.destinationLocation = "2.937297,101.705073";
+      };// End initialForm
+      // openMap is for open Google Map application.
+      // Parameter :
+      // targetDestinationLocation = latitude,longitude of the destination location.
+      $scope.openMap = function (targetDestinationLocation) {
+
+      $scope.callTo = function (number) {
+          window.open("tel:" + number);
+      }// End callTo.
+
+      	// window.open is to link to URL.
+          // The format is geo:?q=targetDestinationLocation(latitude,longitude)&z=15(Specifies the zoom level of the map).
+          //  '_system' is for open map application
+          window.open('geo:?q=' + targetDestinationLocation + '&z=15', '_system');
+          // If you would like to custom map you can use this parameter below:
+    		// latitude and longitude set the center point of the map.
+  		// z optionally sets the initial zoom level of the map. Accepted values range from 0 (the whole world) to 21 (individual buildings).
+  		// The upper limit can vary depending on the map data available at the selected location.
+      };// End openMap
+
+      $scope.initialForm();
+
+
+      $scope.toggleLeft = buildToggler('left');
 
     // buildToggler is for create menu toggle.
     // Parameter :
@@ -140,28 +176,6 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
     },100);
     //End of $ionicPlatform.registerBackButtonAction
 
-    // initialForm is the first activity in the controller.
-      // It will initial all variable data and let the function works when page load.
-      $scope.initialForm = function () {
-      	//destinationLocation is latitude,longitude of the destination location.
-          $scope.destinationLocation = "2.937297,101.705073";
-      };// End initialForm
-
-      // openMap is for open Google Map application.
-      // Parameter :
-      // targetDestinationLocation = latitude,longitude of the destination location.
-      $scope.openMap = function (targetDestinationLocation) {
-
-      	// window.open is to link to URL.
-          // The format is geo:?q=targetDestinationLocation(latitude,longitude)&z=15(Specifies the zoom level of the map).
-          //  '_system' is for open map application
-          window.open('geo:?q=' + targetDestinationLocation + '&z=15', '_system');
-          // If you would like to custom map you can use this parameter below:
-    		// latitude and longitude set the center point of the map.
-  		// z optionally sets the initial zoom level of the map. Accepted values range from 0 (the whole world) to 21 (individual buildings).
-  		// The upper limit can vary depending on the map data available at the selected location.
-      };// End openMap
-
-      $scope.initialForm();
+    $scope.initialForm();
 
 }); // End of menu toggle controller.
