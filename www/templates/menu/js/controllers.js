@@ -17,15 +17,18 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
         };
           $scope.destinationLocation = "2.937297,101.705073";
       };// End initialForm
+
+      // callTo is for using mobile calling.
+      // Parameter :
+      // number = number that going to call.
+      $scope.callTo = function (number) {
+          window.open("tel:" + number);
+          }// End callTo.
+          
       // openMap is for open Google Map application.
       // Parameter :
       // targetDestinationLocation = latitude,longitude of the destination location.
       $scope.openMap = function (targetDestinationLocation) {
-
-      $scope.callTo = function (number) {
-          window.open("tel:" + number);
-      }// End callTo.
-
       	// window.open is to link to URL.
           // The format is geo:?q=targetDestinationLocation(latitude,longitude)&z=15(Specifies the zoom level of the map).
           //  '_system' is for open map application
@@ -36,10 +39,7 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
   		// The upper limit can vary depending on the map data available at the selected location.
       };// End openMap
 
-      $scope.initialForm();
-
-
-      $scope.toggleLeft = buildToggler('left');
+    $scope.toggleLeft = buildToggler('left');
 
     // buildToggler is for create menu toggle.
     // Parameter :
