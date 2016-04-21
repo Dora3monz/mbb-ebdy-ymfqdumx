@@ -603,7 +603,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                }
            })
            .state('app.jabatanPM', {
-                url: "/jabtanpm",
+                url: "/jabatanpm",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/jabatan-pm.html",
