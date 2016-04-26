@@ -11,7 +11,6 @@
       <md-list>
         <md-list-item class="md-2-line" ng-repeat="product in productList"
              ng-click="navigateTo('app.productDetail',product)">
-            <!-- <span><i class="fa fa-tags fa-3x" style="padding: 0px 15px 0px 0px; color: #F44336; "></i></span> -->
             <div class="md-list-item-text">
                 <h3>{{product.title}}</h3>
                 <p>{{product.created.substr(0, 10)}}</p>
