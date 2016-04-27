@@ -1,10 +1,34 @@
 [
     {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_icon.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\loading_icon.png"
+    },
+    {
         "merged": "C:\\Users\\test\\github\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
         "source": "C:\\Users\\test\\github\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
         "source": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous_item.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_remove.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_next_item.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_bg.9.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-hdpi\\image_bg.9.png"
     }
 ]
