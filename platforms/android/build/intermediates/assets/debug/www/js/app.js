@@ -345,15 +345,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
-            .state('app.dashboardSetting', {
-                url: "/dashboardSetting",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/material-user-interface/dashboard/html/dashboard-setting.html",
-                        controller: "dashboardSettingCtrl"
-                    }
-                }
-            })
+
             .state('app.contractlist', {
                 url: "/contractlist",
                 cache: false,
@@ -556,6 +548,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                views: {
                    'menuContent': {
                        templateUrl: "templates/themes/expense-dashboard/html/datapesalah.html",
+                       
                    }
                }
            })
@@ -564,6 +557,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/statistik-Pesalah-Rasuah.html",
+                        controller: 'expenseDashboardCtrl'
                     }
                 }
             })
@@ -573,6 +567,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/menu/html/statistik-tangkapan.html",
+                        controller: 'expenseDashboardCtrl'
                     }
                 }
             })
@@ -591,6 +586,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/c-m-s.html",
+                        controller: 'expenseDashboardCtrl'
                     }
                 }
             })
@@ -599,6 +595,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                views: {
                    'menuContent': {
                        templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/iklan.html",
+                       controller: 'expenseDashboardCtrl'
                    }
                }
            })
@@ -607,6 +604,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 views: {
                     'menuContent': {
                         templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/jabatan-pm.html",
+                        controller: 'expenseDashboardCtrl'
                     }
                 }
             })
@@ -615,6 +613,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                  views: {
                      'menuContent': {
                          templateUrl: "templates/themes/expense-dashboard/html/Orang-Awam/kenali-rasuah.html",
+                         controller: 'expenseDashboardCtrl'
                      }
                  }
              })

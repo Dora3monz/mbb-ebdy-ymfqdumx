@@ -12,7 +12,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             telephone: "+603-8886 7000",
             sms:"+6019-6000 696",
             fax:"+603-8888 9562",
-            email: "info@sprm.gov.my",
+            email: "info@sprm.gov.my"
         };
         $scope.destinationLocation = "2.937297,101.705073";
     };// End initialForm.
@@ -90,16 +90,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             scope: $scope.$new(false),
         });
     };
-  });// End of controller expense dashboard.
 
-// Controller of expense dashboard setting.
-appControllers.controller('expenseDashboardSettingCtrl', function ($scope, $state,$ionicHistory,$ionicViewSwitcher) {
-
-    // navigateTo is for navigate to other page
-    // by using targetPage to be the destination state.
-    // Parameter :
-    // stateNames = target state to go.
-    // objectData = Object data will send to destination state.
     $scope.navigateTo = function (stateName,objectData) {
         if ($ionicHistory.currentStateName() != stateName) {
             $ionicHistory.nextViewOptions({
@@ -115,7 +106,7 @@ appControllers.controller('expenseDashboardSettingCtrl', function ($scope, $stat
             });
         }
     }; // End of navigateTo.
-}); // End of controller expense dashboard setting.
+  });// End of controller expense dashboard.
 
 appControllers.controller('kenyataanCtrl', function ($scope, $timeout, $state, $http) {
 

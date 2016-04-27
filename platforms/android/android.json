@@ -165,7 +165,7 @@
     },
     "installed_plugins": {
         "com.cordova.plugins.sms": {
-            "PACKAGE_NAME": "com.aidantech.pkns"
+            "PACKAGE_NAME": "com.apps.sprm"
         },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.apps.sprm"
