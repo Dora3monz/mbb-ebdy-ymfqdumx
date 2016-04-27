@@ -175,7 +175,6 @@ appControllers.controller('kenyataanCtrl', function ($scope, $timeout, $state, $
         $timeout(function () {
             //get product list from json  at paht: www/app-data/product-list.json
             //url for json  http://www.pkns.gov.my/json/desc_content.json
-
             $http.get('http://www.sprm.gov.my/index.php/my/?option=com_jsonexport&table=kenyataan_media')
                 .success(function (productList) {
                     // Success retrieve data.

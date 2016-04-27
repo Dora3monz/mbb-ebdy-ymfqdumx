@@ -275,8 +275,8 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
         // mdIconProvider is function of Angular Material.
         // It use for reference .SVG file and improve performance loading.
         $mdIconProvider
-            .icon('facebook', 'img/icons/facebooks.svg')
-            .icon('twitter', 'img/icons/twitters.svg')
+            .icon('facebook', 'img/icons/facebook.svg')
+            .icon('twitter', 'img/icons/twitter.svg')
             .icon('mail', 'img/icons/mail.svg')
             .icon('message', 'img/icons/message.svg')
             .icon('share-arrow', 'img/icons/share-arrow.svg')
@@ -577,14 +577,14 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-          .state('app.kenyataanMedia', {
-               url: "/kenyataanMedia",
-               views: {
-                   'menuContent': {
-                       templateUrl: "templates/themes/expense-dashboard/html/kenyataanmedia.html",
-                   }
-               }
-           })
+          // .state('app.kenyataanMedia', {
+          //      url: "/kenyataanMedia",
+          //      views: {
+          //          'menuContent': {
+          //              templateUrl: "templates/themes/expense-dashboard/html/kenyataan-media.html",
+          //          }
+          //      }
+          //  })
 
           .state('app.cms', {
                 url: "/cms",

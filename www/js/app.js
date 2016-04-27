@@ -577,14 +577,14 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 }
             })
 
-          .state('app.kenyataanMedia', {
-               url: "/kenyataanMedia",
-               views: {
-                   'menuContent': {
-                       templateUrl: "templates/themes/expense-dashboard/html/kenyataanmedia.html",
-                   }
-               }
-           })
+          // .state('app.kenyataanMedia', {
+          //      url: "/kenyataanMedia",
+          //      views: {
+          //          'menuContent': {
+          //              templateUrl: "templates/themes/expense-dashboard/html/kenyataan-media.html",
+          //          }
+          //      }
+          //  })
 
           .state('app.cms', {
                 url: "/cms",
