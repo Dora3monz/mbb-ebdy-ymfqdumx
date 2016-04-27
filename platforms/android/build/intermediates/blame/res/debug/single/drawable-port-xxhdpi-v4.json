@@ -4,6 +4,10 @@
         "source": "C:\\Users\\test\\github\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-port-xxhdpi\\screen.png"
     },
     {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi-v4\\screen.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
         "merged": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi-v4\\screen.png",
         "source": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\drawable-port-xxhdpi\\screen.png"
     }
