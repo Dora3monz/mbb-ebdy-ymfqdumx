@@ -12,7 +12,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             telephone: "+603-8886 7000",
             sms:"+6019-6000 696",
             fax:"+603-8888 9562",
-            email: "info@sprm.gov.my",
+            email: "info@sprm.gov.my"
         };
         $scope.destinationLocation = "2.937297,101.705073";
     };// End initialForm.
