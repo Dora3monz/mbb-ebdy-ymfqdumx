@@ -24,7 +24,7 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
       $scope.callTo = function (number) {
           window.open("tel:" + number);
           }// End callTo.
-          
+
       // openMap is for open Google Map application.
       // Parameter :
       // targetDestinationLocation = latitude,longitude of the destination location.
