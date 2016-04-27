@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi-v4\\screen.png",
+        "source": "C:\\tmp\\mbb-ebdy-ymfqdumx\\platforms\\android\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
         "merged": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi-v4\\screen.png",
         "source": "C:\\Users\\test\\github\\APP-SPRM-Material\\platforms\\android\\res\\drawable-port-hdpi\\screen.png"
     },

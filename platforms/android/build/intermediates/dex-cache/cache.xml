@@ -2,18 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\test\github\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jar="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="ad69d61ce599f314fc0d3ffc1e84d788cd56872b">
-        <dex dex="C:\Users\test\github\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_d6ffbd65a7a6e6d1c5b85a6931820856841a25a6.jar" />
+        revision="23.0.3"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_230d132121a72c4a6c1168515c8c4fc101260a09.jar" />
     </item>
     <item
-        jar="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jar="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="187ef5263c53b57347a10544a8e1ca3c2718ca77">
-        <dex dex="C:\Users\test\github\APP-SPRM-Material\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_81a0453bf4e757bd8988de98f369e9b483f4f276.jar" />
+        revision="23.0.3"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-alpha1_01f047f8c67baca97934b06c3947750f58ed9182.jar" />
+    </item>
+    <item
+        jar="C:\Users\ramdan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1_0856b2752c5f7508a1135a7c7212e61989af9566.jar" />
+    </item>
+    <item
+        jar="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f9145a44b22568f7bb7d5d9e4538ed19a9d14ce5">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_d266de3190037179059f865ecd2f062f2e36ea1e.jar" />
+    </item>
+    <item
+        jar="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\google-play-services_03afb4640a894466566fc42293bfc01b0464ea7f.jar" />
+    </item>
+    <item
+        jar="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3193260c427164169c8e7f97cfc2bdd7c8efa18d">
+        <dex dex="C:\tmp\mbb-ebdy-ymfqdumx\platforms\android\build\intermediates\pre-dexed\debug\sqlite-connector_dec597c5b764f1fbb3cf127493c1bece27f7d171.jar" />
     </item>
 
 </items>

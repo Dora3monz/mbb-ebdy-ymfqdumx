@@ -9,7 +9,62 @@
     "installed_plugins": {
         "com.cordova.plugins.sms": {
             "PACKAGE_NAME": "com.aidantech.pkns"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-googleplayservices": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-transport-security": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "org.devgeeks.Canvas2ImagePlugin": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "cordova-plugin-flashlight": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.apps.sprm"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.apps.sprm"
+        }
+    }
 }
