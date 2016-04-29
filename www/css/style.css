@@ -1095,7 +1095,7 @@ md-sidenav {
   #user-interface-content span {
     margin: 0; }
   #user-interface-content .slide-01 {
-    top: 20%;
+    top: 0%;
     text-align: center; }
     #user-interface-content .slide-01 .button-icon-content {
       margin: 8px; }
@@ -1111,7 +1111,7 @@ md-sidenav {
       font-size: x-large;
       color: white; }
   #user-interface-content .slide-02 {
-    top: 14%; }
+    top: 0%; }
     #user-interface-content .slide-02 #default-input-content {
       margin: 20px 20px 0 34px; }
       #user-interface-content .slide-02 #default-input-content md-input-container.md-list-item-full-width {

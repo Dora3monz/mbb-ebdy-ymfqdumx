@@ -345,15 +345,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                     }
                 }
             })
-            .state('app.dashboardSetting', {
-                url: "/dashboardSetting",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/material-user-interface/dashboard/html/dashboard-setting.html",
-                        controller: "dashboardSettingCtrl"
-                    }
-                }
-            })
+
             .state('app.contractlist', {
                 url: "/contractlist",
                 cache: false,
@@ -470,7 +462,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
             })
 
             // start open next page Mainmenu
-            .state('app.menuDashboardOrangAwam', {
+          .state('app.menuDashboardOrangAwam', {
                 url: "/OrangAwam",
                 views: {
                     'menuContent': {
@@ -556,6 +548,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                views: {
                    'menuContent': {
                        templateUrl: "templates/themes/expense-dashboard/html/datapesalah.html",
+
                    }
                }
            })
