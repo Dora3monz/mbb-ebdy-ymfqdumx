@@ -13,10 +13,13 @@
       info@sprm.gov.my
     </author>
   <content src="index.html"/>
-  <access origin="*"/>
+  <access origin="*" />
+ <allow-intent href="*" />
+
   <access launch-external="yes" origin="tel:*"/>
   <access launch-external="yes" origin="maps:*"/>
   <access launch-external="yes" origin="geo:*"/>
+  <allow-navigation href="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
