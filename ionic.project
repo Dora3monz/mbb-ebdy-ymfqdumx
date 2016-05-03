@@ -5,12 +5,6 @@
     "sass",
     "watch"
   ],
-  "proxies": [
-    {
-      "path": "/sprm",
-      "proxyUrl": "http://www.sprm.gov.my"
-    }
-  ],
   "watchPatterns": [
     "www/**/*",
     "!www/lib/**/*"
