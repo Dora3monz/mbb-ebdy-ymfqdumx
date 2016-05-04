@@ -2,13 +2,14 @@
 <widget id="com.apps.sprm" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SPRM</name>
   <description>
-        Perbadanan Kemajuan Negeri Selangor ( PKNS ) telah ditubuhkan pada 1 Ogos 1964
-        di bawah Enakmen Perbadanan Kemajuan Negeri Selangor ( 1964 ) sebagai sebuah
-        badan berkanun dan agensi pembangunan negeri Selangor. Penubuhannya bertujuan
-        untuk mengisi kemerdekaan Negara menerusi pengagihan ekonimi yang adil dan
-        pertumbuhan sosio-ekonomi yang berpandukan kepada dasar-dasar kerajaan agar dpt
-        mewujudkan kestabilan, keharmonian dan keadilan sosial khususnya di Selangor.
-    </description>
+    Kewujudan entiti pencegahan rasuah di Malaysia bermula dengan sebuah unit kecil
+    di bawah Jabatan Perdana Menteri (JPM) yang bertanggungjawab menjalankan aktiviti
+    pencegahan rasuah. Ketika itu, siasatan kes rasuah dijalankan oleh Jabatan Siasatan
+    Jenayah (Jenayah Khas) di bawah pasukan Polis DiRaja Malaysia manakala pendakwaan
+    kes rasuah pula dikendalikan oleh Bahagian Pendakwaan, Jabatan Peguam Negara.
+    Kerajaan kemudiannya telah menggabungkan usaha pencegahan rasuah oleh ketiga-tiga
+    agensi itu dengan mewujudkan Badan Pencegah Rasuah pada 1 Oktober 1967.
+  </description>
   <author email="general@pkns.gov.my" href="http://ionicframework.com/">
       info@sprm.gov.my
     </author>
