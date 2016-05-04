@@ -15,7 +15,7 @@ appControllers.controller('menuCtrl', function ($scope, $timeout, $mdUtil, $mdSi
             fax:"+603-8888 9562",
             email: "info@sprm.gov.my"
         };
-          $scope.destinationLocation = "2.9378026,101.7038219";
+          $scope.destinationLocation = "2.937297,101.705073";
       };// End initialForm
 
       // callTo is for using mobile calling.
