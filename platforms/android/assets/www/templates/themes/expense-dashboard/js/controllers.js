@@ -18,7 +18,7 @@ appControllers.controller('expenseDashboardCtrl', function ($scope, $state, $tim
             fax:"+603-8888 9562",
             email: "info@sprm.gov.my"
         };
-        $scope.destinationLocation = "2.9378026,101.7038219";
+        $scope.destinationLocation = "2.937297,101.705073";
     };// End initialForm.
     // sentSms is for send message by calling $cordovaSms
     // Parameter :
